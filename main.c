@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-unsigned reverse_number(unsigned number) {
+unsigned ReverseNumber(unsigned number) {
     unsigned ones_digit, tens_digit, hundreds_digit, result;
 
     /*Extract the digits in the correct order*/
@@ -17,7 +17,7 @@ unsigned reverse_number(unsigned number) {
 int main() {
    
     unsigned number_to_reverse = 123;
-    printf("Reversed number: %d\n", reverse_number(number_to_reverse));/*Expected value: 321*/
+    printf("Reversed number: %d\n", ReverseNumber(number_to_reverse));/*Expected value: 321*/
     
 
 
