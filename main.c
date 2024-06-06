@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-unsigned ReverseNumber(unsigned number) {
+unsigned reverse_number(unsigned number) {
     unsigned ones_digit, tens_digit, hundreds_digit, result;
 
     /*Extract the digits in the correct order*/
